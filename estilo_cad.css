@@ -1,0 +1,59 @@
+*{font-family: 'Nunito',serif;}
+sobre_nos{width:50px;
+	text-align: center}
+a{
+	color:#000000;
+	text-decoration: none;}
+.sumario ul{
+		background-color: #f8542f;
+		padding:1.5%;
+		font-weight:600;
+		list-style:none;
+		display: flex;
+		justify-content: center;
+		justify-content: space-around;
+		flex-direction: row;
+	}
+header{	
+		text-align:center;
+		padding:120px;
+		background-size:cover;
+		background-color:#fa8878;}
+header h1,h2{color: #000000;
+	font-size: 220%;
+	font-weight:500;
+	font-family: 'Nunito',serif;}
+#sobre_nos{
+	background-color: #191919;
+	font-size:130%;
+	color: azure;
+	padding:3%;
+	display:grid}
+#cadastro{
+	background-color: #FFAA5A;
+	font-size:120%;
+	font-weight:600;
+	padding:3%;
+	list-style:none;
+	display: flex;
+	justify-content: center;}
+#cadastro button{
+	font-size: medium;
+	font-weight: 600}
+#nosso_espaco{
+	display: flex;
+	background-color: azure;
+	justify-content: center;
+	justify-content: space-around;}
+#nosso_espaco img{
+	width: 40%;
+	height: 400px;
+}
+#contato{
+	text-align:center;
+	display: grid;
+	background-color:#f1ab9a;
+	font-size: large;
+	font-weight: 600;
+	justify-content: center;
+	padding: 3%;}

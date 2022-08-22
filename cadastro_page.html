@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Cadastro Odonto Life</title>
+		<meta charset="utf-8">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200&family=Playfair+Display:ital,wght@0,600;1,400&display=swap" rel="stylesheet">
+		<style>
+			
+
+			*{font-family: 'Nunito',serif;}
+			#titulo{font-weight: 500;}
+			#formulario{font-weight: 600;}
+			#button,input{
+				font-size: medium;
+				font-weight: 600;
+				border: none;
+				;}
+			#button:hover{background-color: #FFAA5A;}
+		</style>
+		<script type="text/javascript">
+			function checa_form(lista){		
+				/*VALIDA O CAMPO USUÁRIO*/
+				if(lista.rg.value.length <= 8){
+					alert("Campo RG preenchido incorretamente");
+					lista.rg.focus();
+					return (false);
+				}
+				}
+			
+		</script>
+	</head>
+	<body bgcolor=#FFD25A>
+	<div class="titulo">
+		<h1 align="center">Cadastro Odonto Life</h1>
+	</div>
+	<br><br>
+	<div align="center">
+		<form onsubmit="return checa_form(this)" name="lista" id="formulario" method="POST">
+			<table>
+				<tr>
+					<td>Nome completo:</td>
+					<td> <input required type="text" size="20" name="nick"> </td>
+				</tr>
+				<tr>
+					<td>RG:</td>
+					<td><input required type="number" size="20" name="rg" ></td>
+				</tr>
+				<tr>
+					<td>E-mail:</td>
+					<td><input required type="email" size="20" name="email" ></td>
+				</tr>
+				<tr>
+					<td>Whatsapp/Telefone:</td>
+					<td><input required type="tel" placeholder="(DDD)XXXXX-XXXX" size="20" name="wpp" ></td>
+				</tr>
+				</tr>
+					<td>Idade:</td>
+					<td><input required type="number" size="20" name="idade" ></td>
+				</tr>
+				<tr>
+					<td>Endereco</td>
+					<td><input  required type="text" size="20" name="endereco"></input></td>
+				</tr>
+				<tr>
+					<td>Nome responsável (caso menor de idade):</td>
+					<td><input required type="text" size="20" name="responsavel"></input></td>
+				</tr>
+				<tr>
+					<td><input id="button" type="reset" name="limpa" value="Limpar"></td>
+					<td><input id="button" type="submit" onclick="checa_form()" name="enviar" value="Cadastrar"></td>
+				</tr>
+			</table>
+		</form>
+	</div>
+	</body>
+</html>
