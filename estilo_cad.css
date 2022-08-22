@@ -5,20 +5,20 @@ a{
 	color:#000000;
 	text-decoration: none;}
 .sumario ul{
-		background-color: #f8542f;
-		padding:1.5%;
-		font-weight:600;
-		list-style:none;
-		display: flex;
-		justify-content: center;
-		justify-content: space-around;
-		flex-direction: row;
+	background-color: #f8542f;
+	padding:1.5%;
+	font-weight:600;
+	list-style:none;
+	display: flex;
+	justify-content: center;
+	justify-content: space-around;
+	flex-direction: row;
 	}
 header{	
-		text-align:center;
-		padding:120px;
-		background-size:cover;
-		background-color:#fa8878;}
+	text-align:center;
+	padding:120px;
+	background-size:cover;
+	background-color:#fa8878;}
 header h1,h2{color: #000000;
 	font-size: 220%;
 	font-weight:500;
